@@ -22,36 +22,33 @@
 .gauche{
 background-color: var(--bleu-f);
 width: 32%;
-height: 100%;
-padding: 15px;
+max-height: 100%;
+padding: 10px;
 }
 /*la partie droite*/
 .droite{
 padding: 15px;
 background-color: #f5f0f0;
 width: 68%;
-height: 100%;
+max-height: 100%;
 
 }
 /* ajouté l'image du cv */
 section img{
-    margin-left: 1px ;
     width: 185px;
     height: 194px;
-    border: 5px solid var(--bleu-f);
-    border-radius: 160px;
-    /* background-clip: padding-box var(--blanc-sale); */
-
-
+    border: 3px solid var(--bleu-f);
+    border-radius: 50%;
+    
 }
 /* la mises en forme du cercle de l'image */
 .cercle{
     overflow: hidden;
     width: 190px;
     height: 199px;
-    border: 3px solid var(--blanc-sale);
-    border-radius: 100px;
-    margin-left: 8px;  
+    border: 2px solid var(--blanc-sale);
+    border-radius: 50%;
+     
 }
 /* l'ecriture du Niveau1 profil */
 .Niveau1{
@@ -87,25 +84,25 @@ section img{
     color: var(--bleu-sale);
 }
 /* trait sous competence */
-.trait{
+#trait{
     border: 1px solid var(--bleu-sale);
-    border-color: var(--bleu-sale);
+    border-color: var(--blanc-sale);
     width: 90%;
    }
    /* ecriture Pack Microsoft Office 360 et les autres */
    .PCM-360{
 margin-top: 10px;
-color: var(--blanc-c);
+color: var(--bleu-sale);
    }
    /* leurs trait d'efficacité */
-.efficaciter1{
+.efficaciter{
     margin-top: 0px;
     width: 80%;
     border: 0px solid var(--blanc-c);
     border-radius: 3px;
     background: var(--blanc-c);
 }
-.progression1{
+.progression{
     width: 70%;
     background-color: var(--bleu-sale);
     border-radius: 3px;
@@ -149,9 +146,6 @@ h3{
     margin-bottom: 10px;
 }
 /* slash */ 
-#dsd{
-
-}
 .Nom{
     display: flex;
     justify-content: flex-start;
